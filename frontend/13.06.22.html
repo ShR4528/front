@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        
+        body {background-color: powderblue;}
+        h1 {color: red;}
+        p {color: blue;}
+      
+
+        textarea{
+            resize: none;
+        }
+    </style>
+   <!-- <style>
+        #technican{
+            background-color: red;
+        }
+       div.namebadge.boss{
+            width: 250px;
+            height: 150px;
+            background-color: orange;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin: 10px 0;
+        }
+
+        .boss {background-color: red;
+
+        }
+        .boss h2{
+            color: gold;
+        }
+        h2.namebadge{
+            color: yellow;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <h2>hello world</h2>
+        </div>
+ <div class="namebadge boss">
+ <h2> jack smith</h2>
+ <p>company</p>
+ </div>
+ 
+ <div class=" namebadge boss">
+    <h2> jack smith</h2>
+    <p> director</p>
+</div>
+<div class=" namebadge boss">
+    <h2> jack smith</h2>
+    <p> director</p>
+</div>-->
+<body>
+    
+<form action="#" method="get" target="" autocomplete ="on">
+    <fieldset>
+        <legend>
+            login <form action=""></form>
+        </legend>
+    <label for="user-name">user name</label>
+    <input type="text" id="user-name" name="user-name" placeholder="enter user-name"><br>
+    <label for="user-pass" >password</label>
+    <input type="password" id="user-pass" name="user-pass" autofocus><br>
+    <label for="user-email">email</label>
+    <input type="email" id="user-email" name="user-email"><br>
+</fieldset>
+    <p>gender</p>
+    <label for="male">male</label>
+    <input type="radio" name="user-gender">
+    <label for="female">female</label>
+    <input type="radio" name="user-gender" id="female">
+    <label for="unknown">unknown</label>
+    <input type="radio" name="user-gender"id="unknown" value="unknown">
+    <label for=" agreement">agree with</label>
+    <input type="checkbox" id="agreement" name="agreement"><br>
+    <select name="brands" id="brands" size="3" multiple>
+        <option value="tln">tallin</option>
+        <option value="lon">london</option>
+        <option value="ny">new-york</option>
+        <option value="pr">praga</option>
+        <option value="par">paris</option>
+</select><br>
+<textarea name="message" id="message" cols="40" rows="10">hello</textarea><br>
+<input type="names">
+<datalist id="names">
+<option value="roman">roman</option>
+<option value="jack">jack</option>
+<option value="mary">mary</option>
+</datalist><br>
+<input type="text"pattern ="[A-Za-z]{3}">
+<input type="range" max="10" min="1" step="2" name="range">
+<input type="date">
+<input type="file">
+<button onclick="alert('hello world');">click me</button>
+<input type="submit" value="click me">
+
+
+</form>
+</body>
+</html>
