@@ -1,0 +1,41 @@
+
+/* div {
+    height: 1000px;
+    background-image: url("http://picsum.photos/1000/1000");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixe;
+   /* background: red url("http://picsum.photos/100/100");*/
+   * {
+    box-sizing: border-box;
+   }
+   p {
+    color: blueviolet;
+    text-align: left;
+    text-align-last: none;
+    text-decoration-line:underline ;
+    text-decoration-color: red;
+    text-decoration-style:wavy;
+    text-decoration: underline red wavy 2px;
+}
+h1 {
+    text-transform: lowercase;
+}
+   
+   /* border-style: solid double;
+    border-color: cadetblue;
+    border-width: 5px 10px 20px 1px;
+    border: 10px solid red;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 5px solid black;
+    outline-style: solid;
+    outline-width: 50px;
+    outline-color: blue;
+    outline-offset: 5px;
+    border-radius: 10px;*/

@@ -1,0 +1,34 @@
+//variables
+$font-stack: Arial, Helvetica, sana_serif;
+$light-color: #ffe8d6;
+//$main-color:#a5a58d;
+$main-color:#d8d86f;
+$secondary-color:#ee9b00;
+
+
+//functions
+@function set-text-color($color) {
+    @if(lightness-($color)) > 70 {
+        @return black;
+    }@else {
+        @return white;
+    }
+}
+//mixin
+@mixin set-background($color) {
+    background-color: $color;
+    color:set-text-color($color);
+    }
+$spaces (1,2,3,4,5);
+@each $num in $spaces {
+    .m-#{$num}{
+        margin:#{$num}rem;
+    }
+    .my-#{.m-#{$num}
+     margin:#{$num}rem
+    }
+    .p-#{$num}{
+        padding: #{$num}rem;
+    }
+    
+}
