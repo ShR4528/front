@@ -1,17 +1,17 @@
-%btn{
+%btn {
     display: inline-block;
     border-radius: 5px;
     padding: 8px 10px;
     margin: 3px;
     &:hover {
-        transform: scale(.98);
+        transform: scale(.90);
     }
 }
 .btn-primary {
     @extend %btn;
-    background-color: lighten($main-color,10%);
+    background-color: lighten($main-color, 10%);
 }
 .btn-secondary {
     @extend %btn;
-    background-color: darken($main-color,10%);
+    background-color: aquamarine;
 }

@@ -1,3 +1,10 @@
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: auto;
+  overflow: auto;
+}
+
 .btn-secondary, .btn-primary {
   display: inline-block;
   border-radius: 5px;
@@ -5,15 +12,15 @@
   margin: 3px;
 }
 .btn-secondary:hover, .btn-primary:hover {
-  transform: scale(0.98);
+  transform: scale(0.9);
 }
 
 .btn-primary {
-  background-color: #e3e397;
+  background-color: #52524e;
 }
 
 .btn-secondary {
-  background-color: #cdcd47;
+  background-color: aquamarine;
 }
 
 * {
@@ -23,8 +30,8 @@
 }
 
 body {
-  background-color: ($main-color);
-  font-family: Arial, Helvetica, sana_serif;
+  background-color: #ffe8d6;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
 
@@ -37,7 +44,8 @@ a {
 }
 
 .showcase {
-  @include setbackground($main-color);
+  background-color: #383835;
+  color: white;
   height: 600px;
 }
 .showcase nav {
@@ -52,31 +60,24 @@ a {
 .showcase nav ul li {
   padding: 15px;
 }
-.showcase a {
-  color: set-tex-color(#d8d86f);
+.showcase nav a {
+  color: white;
   font-weight: bold;
 }
 .showcase-content {
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-.showcase h1 {
+.showcase-content h1 {
   font-size: 50px;
   line-height: 1.2;
 }
-.showcase p {
+.showcase-content p {
   margin: 20px 0;
 }
-.showcase img {
+.showcase-content img {
   width: 50%;
-}
-
-.container {
-  max-width: 1100px;
-  flex-wrap: wrap;
-  padding: 0 30px;
-  margin: auto;
-  overflow: auto;
-}
+}/*# sourceMappingURL=style.css.map */
