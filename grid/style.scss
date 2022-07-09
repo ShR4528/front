@@ -6,7 +6,7 @@ html,body {
     margin: auto;
     padding: 0;
  }
- div {
+.div {
     width: 100%;
     font-size: 200%;
     text-align: center;
@@ -63,4 +63,4 @@ html,body {
 //    display: grid;
 //    gap: 5px;
   //  grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
- //   grid-template-rows: [main-start] 50px [content-start]auto[content-end] 50px [main-end];
+ //   grid-template-rows: [main-start] 50px [content-start] auto [content-end] 50px [main-end];

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/06.07.22.css" />
+    <script
+      src="https://kit.fontawesome.com/8becff2c9c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p class="text-muted">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+          perferendis autem, voluptas impedit cumque consequatur et dolorum unde
+          necessitatibus quia!
+        </p>
+
+        <button
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#reg-modal"
+        >
+          registr
+        </button>
+      </div>
+      <div
+        class="modal fade"
+        id="reg-modal"
+        tabindex="-1"
+        aria-labelledby="modal-title"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">get</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="close"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="side-bar">
+      <div class="container">
+        <div class="text-center">
+          <h2>offcanvas</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
+            distinctio. Sequi nisi perspiciatis optio! Nulla quo fugit quibusdam
+          </p>
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center"></div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn-secondary btn-lg">Get start</a>
+      <a
+        href="#sidebar"
+        class="d-block"
+        data-bs-toggle="offcanvas"
+        role="button"
+        aria-controls="sidebar"
+        >learn</a
+      >
+      <div class="offcanvas offcanvas-end" id="sidebar" tabindex="-1">
+        hello
+        <div class="offcanvas-header"></div>
+        <h5 class="offcanvas-title" id="sidebar-label">bootstrap</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="close"
+        ></button>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+          fuga officia repellat numquam accusamus debitis quod dolorem iure
+          obcaecati expedita.
+        </p>
+      </div>
+      <div class="offcanvas-footer">hello</div>
+    </section>
+    <section id="gallery">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>carousel</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
+            impedit!
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <div
+              id="advertisment"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="http://picsum.photos/600/400"
+                    class="d-bloc w-100"
+                    alt="random"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="http://picsum.photos/605/404"
+                    class="d-bloc w-100"
+                    alt="random"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="http://picsum.photos/602/400"
+                    class="d-bloc w-100"
+                    alt="random"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#advertisment"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#advertisment"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
